@@ -1,0 +1,22 @@
+// Add your custom variables to this file
+// I normally prepend them with a 'c-' to distinguish them from Tachyons selectors
+
+// Better sans-serif stack putting Segoe before Arial on Windows
+// We'll refer to this variable in _c.scss
+$c-sans-serif: -apple-system, BlinkMacSystemFont, 'segoe ui', 'IBM Plex Sans', Ubuntu, 'Inter UI', Helvetica Neue, Helvetica, Roboto, Noto, sans-serif;
+$c-serif: -apple-system, BlinkMacSystemFont, noto, serif;
+
+$c-font-size: 100%;
+$c-font-size-m: 112.5%;
+$c-font-size-l: 118.75%;
+
+$c-lh-title: 1.2;
+
+$c-lh-copy: 1.35;
+$c-lh-copy-m: 1.45;
+$c-lh-copy-l: 1.5;
+
+$c-wrapper: 40em;
+
+$c-beige: #F8F8F1;
+$highlight: #E7040F;
