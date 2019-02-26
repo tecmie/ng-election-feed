@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Politics
-category: politics
+title: Presidential Election
+category: presidential
 annualised: true
 ---
 
