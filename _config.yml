@@ -20,7 +20,7 @@ img: nigeria.jpg
 email: ngdecides@tecmie.com
 description: "Nigeria Decides 2019, Election Results as collated by INEC in easy to Read Presentations"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://ngdecides.tecmie.com" # the base hostname & protocol for your site
+url: "https://nge.tecmie.com" # the base hostname & protocol for your site
 lead: "Election results as collated by INEC from the 2019 General Elections in various States and Polling Units"
 
 # Build settings
