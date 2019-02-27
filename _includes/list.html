@@ -1,3 +1,21 @@
+<!-- INLINE STYLING FOR LINK CAPTION==== CCLEANUP LATER -->
+
+<style>
+  .c-link-cap{
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 4px;
+    box-shadow: 5px 3px 6px #0000000f;
+    margin: .8rem .5rem;
+}
+.c-link-cap:hover{
+    box-shadow: none;
+}
+
+</style>
+
+
+
 {% if page.category %}
 
     {% assign posts = site.posts | where: "category", page.category %}
@@ -41,7 +59,7 @@
 
         {% unless post.note %}
 
-            <li class="mb4 b f4-ns c-sans-serif c-lh-title"><a class="pv1 no-underline" href="{{ post.url }}">{{ post.title }}</a> <time class="mt1 db normal f6 gray lh-copy">{{ post.date | date: "%b %d, %Y" }}</time></li>
+            <li class="mb4 b f4-ns c-sans-serif c-lh-title c-link-cap"><a class="pv1 no-underline" href="{{ post.url }}">{{ post.title }}</a> <time class="mt1 db normal f6 gray lh-copy">{{ post.date | date: "%b %d, %Y" }}</time></li>
 
         {% endunless %}
 
@@ -59,7 +77,7 @@
 
 {% unless post.note %}
 
-    <li class="mb4 b f4-ns c-sans-serif c-lh-title"><a class="pv1 no-underline" href="{{ post.url }}">{{ post.title }}</a> <time class="mt1 db normal f6 gray c-sans-serif">{{ post.date | date: "%b %d, %Y" }}</time></li>
+    <li class="mb4 b f4-ns c-sans-serif c-lh-title c-link-cap"><a class="pv1 no-underline" href="{{ post.url }}">{{ post.title }}</a> <time class="mt1 db normal f6 gray c-sans-serif">{{ post.date | date: "%b %d, %Y" }}</time></li>
 
 {% endunless %}
 

@@ -18,14 +18,14 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
-        <meta name="author" content="Andrew Miracle">
+        <meta name="author" content="Tecmie LLC">
         {% if jekyll.environment == "development" %}
         <meta name="robots" content="noindex, nofollow">
         {% endif %}
 
         {% if page.is_post %}
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@koolamusic" />
+        <meta name="twitter:site" content="@tecmie" />
         <meta name="twitter:title" content="{{ page.title }}" />
         <meta name="og:title" content="{{ page.title }}" />
         {% if page.description %}
@@ -47,7 +47,7 @@
         {% if page.is_post %}
         <link rel="schema.DCTERMS" href="https://purl.org/dc/terms/">
         <meta name="DC.Title" content="{{ page.title}}">
-        <meta name="DC.Creator" content="Andrew Miracle">
+        <meta name="DC.Creator" content="Tecmie LLC">
         <meta name="DC.Subject" content="{% if page.subject %}{{ page.subject }}{% else %}{{ page.category | capitalize }}{% endif %}">
         {% if page.description %}
         <meta name="DC.Description" content="{{ page.description }}">
