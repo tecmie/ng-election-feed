@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Home
-display-title: "#NigeriaDecides2019"
+display-title: "#NG2019"
 is_home: true
 order: 1
 ---
 
-Elections Results as released by INEC
+Elections Results for the 2019 General Elections as conducted by INEC, please see [Disclaimer](disclaimer)
 
 
 <h2 class="f5 normal mt4 gray pb1 bb b--light-gray c-sans-serif">Latest Results</h2>
