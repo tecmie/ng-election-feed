@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Presidential | katsina State Result
+title: Presidential | Katsina State Result
 category: [presidential, election]
 img: nigeria.jpg
 alt: Nigeria Decides
